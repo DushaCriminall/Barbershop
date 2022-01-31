@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_barbers"
+        android:icon="@drawable/barber_icon"
+        android:title="BARBERS" />
+    <item
+        android:id="@+id/navigation_services"
+        android:icon="@drawable/services"
+        android:title="SERVICES" />
+    <item
+        android:id="@+id/navigation_location"
+        android:icon="@drawable/location"
+        android:title="LOCATION" />
+</menu>

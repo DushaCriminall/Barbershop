@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/navigation_introduction">
+
+    <fragment
+        android:id="@+id/navigation_auth"
+        android:name="uz.datamond.barbershop.ui.auth.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/navigation_sms_code"
+        android:name="uz.datamond.barbershop.ui.auth.AuthSmsCodeFragment"
+        android:label="AuthSmsCodeFragment"
+        tools:layout="@layout/fragment_auth_sms_code"/>
+    <fragment
+        android:id="@+id/navigation_introduction"
+        android:name="uz.datamond.barbershop.ui.auth.IntroductionFragment"
+        android:label="fragment_introduction"
+        tools:layout="@layout/fragment_introduction" />
+</navigation>
