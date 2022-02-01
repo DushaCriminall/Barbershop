@@ -16,6 +16,7 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/drawer_header.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_auth.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_auth_sms_code.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_barber_info.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_barbers.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_introduction.xml" value="0.25416666666666665" />
@@ -23,7 +24,7 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_promo.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/fragment_services.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/list_item.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/promo_dialog.xml" value="0.24434389140271492" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/layout/promo_dialog.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/Barbershop/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />

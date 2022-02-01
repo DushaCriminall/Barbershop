@@ -7,7 +7,7 @@ import uz.datamond.barbershop.databinding.ListItemBinding
 import uz.datamond.barbershop.network.model.ListModel
 
 
-class ListAdapter : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class BarberListAdapter : RecyclerView.Adapter<BarberListAdapter.ViewHolder>() {
 
     var list = ArrayList<ListModel>()
 

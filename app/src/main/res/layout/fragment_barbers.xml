@@ -19,6 +19,7 @@
         android:queryBackground="@android:color/transparent"
         android:queryHint="Search barbershop" />
 
+
 <!--    <androidx.recyclerview.widget.RecyclerView-->
 <!--        android:id="@+id/rv_barbers"-->
 <!--        android:layout_width="match_parent"-->
