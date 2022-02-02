@@ -20,5 +20,10 @@
         android:name="uz.datamond.barbershop.ui.location.LocationFragment"
         android:label="fragment_location"
         tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/navigation_barber_info"
+        android:name="uz.datamond.barbershop.ui.barbers.BarberInfoFragment"
+        android:label="fragment_barber_info"
+        tools:layout="@layout/fragment_barber_info" />
 
 </navigation>
