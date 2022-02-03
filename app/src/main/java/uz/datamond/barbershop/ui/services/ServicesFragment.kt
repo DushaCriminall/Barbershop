@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import uz.datamond.barbershop.databinding.FragmentServicesBinding
 
 class ServicesFragment : Fragment() {
+
     private lateinit var binding: FragmentServicesBinding
 
     override fun onCreateView(

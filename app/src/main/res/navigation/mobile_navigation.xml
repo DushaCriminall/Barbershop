@@ -25,5 +25,10 @@
         android:name="uz.datamond.barbershop.ui.barbers.BarberInfoFragment"
         android:label="fragment_barber_info"
         tools:layout="@layout/fragment_barber_info" />
+    <fragment
+        android:id="@+id/navigation_time_and_data"
+        android:name="uz.datamond.barbershop.ui.timeanddata.TimeAndDataFragment"
+        android:label="fragment_time_and_data"
+        tools:layout="@layout/fragment_time_and_data" />
 
 </navigation>
