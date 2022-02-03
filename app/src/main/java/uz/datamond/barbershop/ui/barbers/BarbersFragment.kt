@@ -20,7 +20,7 @@ class BarbersFragment : Fragment() {
         binding = FragmentBarbersBinding.inflate(layoutInflater, container, false)
 
         binding.tvAaa.setOnClickListener {
-            findNavController().navigate(R.id.navigation_barber_info)
+            findNavController().navigate(R.id.navigation_time_and_data)
         }
 
         return binding.root
