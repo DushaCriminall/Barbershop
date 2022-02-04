@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                     try {
                         val shareIntent = Intent(Intent.ACTION_SEND)
                         shareIntent.type = "text/plain"
-                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Wallpaper 8k")
+                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "BarberShop")
                         var shareMessage = "\nLet me recommend you this application\n\n"
                         shareMessage =
                             """

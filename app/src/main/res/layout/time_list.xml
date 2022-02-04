@@ -15,11 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="13dp"
-        android:layout_marginHorizontal="10dp"
         android:fontFamily="@font/proxima_nova_bold"
-        android:paddingHorizontal="15dp"
         android:text="12:45"
         android:textColor="@color/white"
-        android:textSize="15sp" />
+        android:textSize="12sp" />
 
 </androidx.cardview.widget.CardView>

@@ -1,4 +1,4 @@
-package uz.datamond.barbershop.network
+package uz.datamond.barbershop.data
 
 import android.content.Context
 import android.content.SharedPreferences
