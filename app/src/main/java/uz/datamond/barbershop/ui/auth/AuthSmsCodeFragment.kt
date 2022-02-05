@@ -25,6 +25,5 @@ class AuthSmsCodeFragment : Fragment() {
         }
 
         return binding.root
-
     }
 }

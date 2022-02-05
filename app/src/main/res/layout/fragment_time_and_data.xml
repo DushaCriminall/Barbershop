@@ -10,9 +10,8 @@
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
-     />
+        android:background="@drawable/nav_item_color" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_time"
