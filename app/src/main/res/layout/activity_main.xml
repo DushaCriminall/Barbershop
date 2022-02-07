@@ -53,32 +53,6 @@
                             android:textSize="18sp"
                             android:textStyle="bold" />
 
-                        <LinearLayout
-                            android:id="@+id/ll_payment"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="2dp"
-                            android:orientation="horizontal">
-
-                            <ImageButton
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:layout_gravity="center"
-                                android:layout_marginRight="5dp"
-                                android:background="@drawable/menu_shape"
-                                android:src="@drawable/ic_dollar" />
-
-                            <TextView
-                                android:id="@+id/tv_balance"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:fontFamily="@font/proxima_nova_bold"
-                                android:text="15.000 so'm"
-                                android:textColor="@color/primary"
-                                android:textSize="13sp" />
-                        </LinearLayout>
                     </LinearLayout>
 
                     <ImageButton
@@ -122,7 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/white"
+        android:background="@color/back_color"
         app:headerLayout="@layout/drawer_header"
         app:itemIconTint="@drawable/nav_item_color"
         app:itemTextColor="@drawable/nav_item_color"

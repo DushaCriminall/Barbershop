@@ -14,4 +14,14 @@
     <string name="thirteenHalf">13:30</string>
     <string name="fourteen">14:00</string>
     <string name="fourteenHalf">14:30</string>
+    <string name="fifteen">15:00</string>
+    <string name="fifteenHalf">15:30</string>
+    <string name="sixteen">16:00</string>
+    <string name="sixteenHalf">16:30</string>
+    <string name="seventeen">17:00</string>
+    <string name="seventeenHalf">17:30</string>
+    <string name="eighteen">18:00</string>
+    <string name="eighteenHalf">18:30</string>
+    <string name="nineteen">19:00</string>
+    <string name="nineteenHalf">19:30</string>
 </resources>

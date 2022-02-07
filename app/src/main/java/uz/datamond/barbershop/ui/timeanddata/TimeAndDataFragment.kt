@@ -7,8 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import uz.datamond.barbershop.databinding.FragmentTimeAndDataBinding
-import uz.umbrellasoft.nomerbor.utils.SpaceItemDecorationForHeader
-import uz.umbrellasoft.nomerbor.utils.convertDpToPixel
 
 class TimeAndDataFragment : Fragment() {
 
@@ -28,18 +26,13 @@ class TimeAndDataFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentTimeAndDataBinding.inflate(inflater, container, false)
+        _binding = FragmentTimeAndDataBinding.inflate(layoutInflater, container, false)
 
         val layoutManager =
             GridLayoutManager(requireContext(), 3, GridLayoutManager.VERTICAL, false)
-
         binding.rvTime.adapter = recyclerViewAdapterOperatorsServices
         binding.rvTime.layoutManager = layoutManager
-//        binding.rvTime.addItemDecoration(
-//            SpaceItemDecorationForHeader(
-//                convertDpToPixel(8), horizontal = false, grid = true, span = 2
-//            )
-//        )
+
         return binding.root
     }
 

@@ -97,12 +97,6 @@ class MainActivity : AppCompatActivity() {
 //            }
         }
 
-        binding.llPayment.setOnClickListener {
-            val browserIntent =
-                Intent(Intent.ACTION_VIEW, Uri.parse("https://payme.uz/cabinet/transfer/external"))
-            startActivity(browserIntent)
-        }
-
         binding.ibMenu.setOnClickListener {
             if (this.drawerLayout.isDrawerOpen(GravityCompat.START)) {
                 this.drawerLayout.closeDrawer(GravityCompat.START)
