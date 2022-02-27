@@ -70,15 +70,13 @@ class LocationFragment : Fragment() {
 
 
         binding.navigation.setOnClickListener {
-            val mTitle = "Diller"
-            val geoUri = "http://maps.google.com/maps?q=loc:$lat,$long ($mTitle)"
+            val mTitle = "Barbershop"
+            val geoUri = "http://maps.google.com/maps?q=andijan:$lat,$long ($mTitle)"
 
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(geoUri))
             requireContext().startActivity(intent)
 
-
         }
-
 
         return binding.root
     }
